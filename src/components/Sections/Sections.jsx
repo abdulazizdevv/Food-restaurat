@@ -1,0 +1,67 @@
+import {
+  FirstDiv,
+  Flexbox,
+  HeadTxt,
+  PageTxt,
+  TextL,
+  InputR,
+  InputS,
+  SearchImg,
+  AllCards,
+  NavLinks,
+  NavLinksNext,
+  AllLinks,
+  Line,
+  Universal,
+  Main,
+  Header2,
+  SelectType,
+  SelectAll,
+  SelectOpt,
+  Cards,
+  CardP,
+  CardSecondP,
+  Card,
+  CardImg,
+  AllMain,
+  Head6,
+  LeftBit,
+  BtnGroup,
+  Btn,
+  Item,
+  TextPlace,
+  Qtr,
+  Ltxt,
+  LineL,
+  InpCard,
+  AddCards,
+  ImgCard,
+  Paragraph,
+  ParagraphPrice,
+  FlexRow,
+  Divs,
+  BtnCount,
+  PriceP,
+  DivP,
+  Inputs,
+  InputDiv,
+  Trash,
+  TrashBtn,
+  TrashImg,
+  FootL,
+  TxtP,
+  PageTxts,
+  PageTxts2,
+  FirstS,
+  FootBtn,
+} from "../../aside/Home/section.style";
+import Search from "../../assets/images/search1/Form Elements/Textfield/Icon/Fill/Mask.svg";
+import { NavLink, Route, Routes } from "react-router-dom";
+import { HotDishes } from "../../pages/HotDishes/HotDishes";
+import foods1 from "../../assets/images/foods1.png";
+import Trashes from "../../assets/images/Vector.png";
+import { data } from "../../data";
+
+export const Sections = () => {
+  return;
+};
