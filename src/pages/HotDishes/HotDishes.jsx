@@ -23,7 +23,7 @@ export const HotDishes = () => {
           <SelectOpt value="deliver">Delivery</SelectOpt>
         </SelectType>
       </SelectAll>
-      {/* <Cards>
+      <Cards>
         <Card>
           <CardImg src={foods1} alt="food" />
           <CardP>
@@ -56,7 +56,7 @@ export const HotDishes = () => {
           <CardSecondP>$ 2.29</CardSecondP>
           <CardSecondP>20 Bowls available</CardSecondP>
         </Card>
-      </Cards> */}
+      </Cards>
     </Main>
   );
 };

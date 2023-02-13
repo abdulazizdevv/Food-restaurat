@@ -15,18 +15,15 @@ export const ProducNavTitle = styled.h2`
   margin-bottom: 14px;
 `;
 export const ProducNavList = styled.ul`
-
   background: #1f1d2b;
   list-style-type: none;
   border-radius: 8px;
   width: 275px;
   height: 723px;
 `;
-export const ProducNavListItem = styled.li`
-
-`;
+export const ProducNavListItem = styled.li``;
 export const NavLinkCard = styled(NavLink)`
-  padding: 24px  0px;
+  padding: 24px 0px;
   margin-top: 0;
   display: flex;
   align-items: flex-start;
@@ -36,41 +33,36 @@ export const NavLinkCard = styled(NavLink)`
   gap: 15px;
   text-decoration: none;
   position: relative;
-&.active{
+  &.active {
     background: rgba(234, 124, 105, 0.26);
-    color:rgba(234, 124, 105, 0.26) ;
-    &.active{
- 
-    /* border-right-width:5px ;
+    color: rgba(234, 124, 105, 0.26);
+    &.active {
+      /* border-right-width:5px ;
     border-right: 6px solid #EA7C69; */
-    &::after{
+      &::after {
         content: "";
         position: absolute;
         right: 0;
         top: calc(50% - 20px);
         width: 5px;
         height: 40px;
-        background: #EA7C69;
+        background: #ea7c69;
+      }
     }
-}
- 
-}
+  }
 
-&:hover{
+  &:hover {
     background: rgba(234, 124, 105, 0.26);
-    color:rgba(234, 124, 105, 0.26) ;
-}
-
+    color: rgba(234, 124, 105, 0.26);
+  }
 `;
 export const NavLinkCardDiv = styled.div`
-width: 100%;
-height: 100%;
-/* &:hover{
+  width: 100%;
+  height: 100%;
+  /* &:hover{
     border-right-width:5px ;
     border-right: 6px solid #EA7C69;
 } */
-
-
 `;
 export const NavLinkHeading = styled.h3`
   margin-top: 0;
@@ -106,6 +98,8 @@ export const NavLinkImg = styled.img`
 export const Setting = styled.div`
   display: flex;
   gap: 50px;
+  background-color: #252836;
+
 `;
 
 export const Products = styled.div`
@@ -237,7 +231,7 @@ export const EditBtn = styled.button`
   font-weight: 600;
   font-size: 14px;
   line-height: 140%;
-  color: #EA7C69;
+  color: #ea7c69;
   border: none;
 `;
 
@@ -250,4 +244,98 @@ export const LineS = styled.div`
   width: 1043px;
   height: 0px;
   border: 1px solid #393c49;
+`;
+
+// /////////Modal
+export const ModalForm = styled.form``;
+export const ModalFormSelect = styled.select`
+  padding: 14px 96px 14px 14px;
+  width: 95%;
+  height: 46px;
+  background: #2d303e;
+  border: 1px solid #393c49;
+  border-radius: 8px;
+  margin: 0 auto;
+  color: white;
+  margin-top: 20px;
+`;
+export const ModalFormOption = styled.option`
+
+`;
+export const EditFormInput = styled.input`
+  padding: 14px 96px 14px 14px;
+  width: 95%;
+  height: 46px;
+  background: #2d303e;
+  border: 1px solid #393c49;
+  border-radius: 8px;
+  margin: 0 auto;
+  color: white;
+  margin-top: 20px;
+`;
+export const UploadBox = styled.div`
+  margin-top: 20px;
+  width: 95%;
+  height: 157px;
+  background: #2d303e;
+  border: 1px dashed #ea7c69;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+export const UploadBoxDiv = styled.div`
+  text-align: center;
+`;
+
+export const UploadBoxImg = styled.img`
+
+`;
+export const UploadBoxHd = styled.h4`
+font-weight: 500;
+font-size: 14px;
+line-height: 130%;
+color: #EA7C69;
+flex: none;
+order: 0;
+flex-grow: 0;
+`;
+export const UploadBoxPr = styled.p`
+font-weight: 400;
+font-size: 12px;
+line-height: 140%;
+color: #ABBBC2;
+flex: none;
+order: 1;
+flex-grow: 0
+`;
+
+export const FormDateBox = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 15px;
+`;
+export const ModalFormBtn = styled.button`
+  margin-top: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px;
+  gap: 8px;
+  width: 217px;
+  height: 48px;
+  border-radius: 8px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  color: #ea7c69;
+  border: 1px solid #ea7c69;
+  &:hover {
+    background: #ea7c69;
+    box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.4);
+    color: white;
+    border: 1px solid #ea7c69;
+  }
 `;
