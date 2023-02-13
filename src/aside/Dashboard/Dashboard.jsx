@@ -63,8 +63,8 @@ import { dataDash } from "../../dataDash";
 import { data } from "../../dataDash";
 import { menu } from "../../dataDash";
 import FilerIcon from "../../assets/images/Filter.png";
-import circle from "../../assets/images/circle.png";
-import info from "../../assets/images/info.png";
+import circle from "../../assets/images/Circle.png";
+import info from "../../assets/images/Info.png";
 import "./dash.css";
 
 export const Dashboard = () => {
